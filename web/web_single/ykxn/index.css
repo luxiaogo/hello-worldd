@@ -1,0 +1,7 @@
+.normal{
+    float:left;
+}
+.normal p a{
+    text-decoration: none;
+    color:blue;
+}

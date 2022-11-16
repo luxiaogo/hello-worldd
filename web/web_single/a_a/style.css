@@ -1,0 +1,22 @@
+.cat{
+    background-color: aqua;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    text-align: center;
+    border: 3px solid blueviolet;
+}
+
+h1{
+    background-color: brown;
+}
+
+.dog{
+    background-color: blueviolet;
+}
+
+.horse{
+    background-color: beige;
+}

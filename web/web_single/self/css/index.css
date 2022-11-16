@@ -34,6 +34,10 @@
     position:relative;
     background:url("../images/messi.png");
 }
+#topmid p{
+    background: none;
+    color:#ff7202
+}
 #topright{
     width:333px;
     height:300px;
@@ -112,6 +116,8 @@
     border:3px solid #ff7202;
     position:relative;
     border-top: none;
+    margin-top: 20px;
+    border-top: 3px solid #ff7202;
 }
 #bottomleft{
     float:left;
@@ -144,4 +150,8 @@
     margin-top:30px;
     color:#777;
     margin:auto;
+}
+
+#footer p a:hover{
+    color:azure;
 }

@@ -1,6 +1,8 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
+
         {//这个大括号里是我们的‘调试(Debug)’配置
             "name": "Debug", // 配置名称
             "type": "cppdbg", // 配置类型，cppdbg对应cpptools提供的调试功能；可以认为此处只能是cppdbg
@@ -15,5 +17,33 @@
             "MIMode": "gdb", // 指定连接的调试器，gdb是minGW中的调试程序
             "miDebuggerPath": "C:\\Users\\coc\\Downloads\\mingw64\\bin\\gdb.exe", // 指定调试器所在路径，如果你的minGW装在别的地方，则要改成你自己的路径，注意间隔是\\
             "preLaunchTask": "build" // 调试开始前执行的任务，我们在调试前要编译构建。与tasks.json的label相对应，名字要一样
-    }]
+    },
+    {
+
+        "name": "使用本机 Chrome 调试",
+      
+        "type": "chrome",
+      
+        "request": "launch",
+      
+        "file": "${workspaceRoot}/index.html",
+      
+        //  "url": "http://mysite.com/index.html", //使用外部服务器时,请注释掉 file, 改用 url, 并将 useBuildInServer 设置为 false "http://mysite.com/index.html
+      
+        "runtimeExecutable": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", // 改成您的 Chrome 安装路径
+      
+        "sourceMaps": true,
+      
+        "webRoot": "${workspaceRoot}",
+      
+        //  "preLaunchTask":"build",
+      
+        "userDataDir":"${tmpdir}",
+      
+        "port":5433
+      
+        }
+]
 }
+
+    

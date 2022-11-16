@@ -1,14 +1,8 @@
-#include<vector>
 #include<iostream>
-#include<algorithm>
 using namespace std;
-int add(int a){
-    a+=10;
-    return a;
-}
 int main(){
-    int x=10;
-    int y=add(x);
-    cout << x;
-    cout << y;
+    int a=2;
+    int c=1;
+    if(a==2){c=2;}else if(a==2){c=3;}
+    cout << c;
 }

@@ -1,7 +1,7 @@
 *{
     margin:0px;
     padding:0px;
-    background:url("../images/background2.jpeg")
+    background-color:deeppink;
 }
 #logo{
     background:url("../images/kyentinlogo.png");
@@ -104,9 +104,9 @@
     margin-top:30px;
     width:1000px;
     height:300px;
-    margin:auto;
     margin-top:15px;
     border:3px solid #ff7202;
+    margin: auto;
 }
 #bottonleft{
     margin-top:30px;
@@ -136,6 +136,7 @@
 }
 #bottonmid p{
     margin-left:50px;
+    background-color: #777;
 }
 #footer p a:link{
     margin-top:30px;
